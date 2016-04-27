@@ -23,7 +23,7 @@ exports = module.exports = {
       }
     }
     if (rankcards <= 10) return 0;
-    if (rankcards > 10) return 1;
+    if (rankcards > 10) return gamestate.callAmount;
     //
     // gamestate contains info about the state of the game.
     // check the documentation at https://bot-poker.herokuapp.com/wiki#gamestate for further info about the data structure.
